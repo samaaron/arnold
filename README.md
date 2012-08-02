@@ -1,13 +1,12 @@
 # arnold
 
-A Clojure library designed to ... well, that part is up to you.
+Code used as part of a performance by Sam Aaron @ Arnolfini on Friday the 27th of July, 2012.
 
-## Usage
+Any questions should be directed to the Overtone mailing list: http://groups.google.com/group/overtone
 
-FIXME
 
 ## License
 
-Copyright © 2012 FIXME
+Copyright © 2012 Sam Aaron
 
 Distributed under the Eclipse Public License, the same as Clojure.

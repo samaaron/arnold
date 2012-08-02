@@ -37,7 +37,7 @@
                         (at t (samp {}))
 
                         (long? beat)
-                        (at t (samp {:vol beat}))
+                        (at t (samp {:vol (/ beat 10)}))
 
                         (double? beat)
                         (when (< (rand) beat)
@@ -46,7 +46,7 @@
                         (set? beat)
                         (let [[prob vol] (extract-prob-and-vol beat)]
                           (when (< (rand) prob)
-                            (at t (samp {:vol vol}))))
+                            (at t (samp {:vol (/ vol 10)}))))
 
                         (map? beat)
                         (at t (samp beat))
